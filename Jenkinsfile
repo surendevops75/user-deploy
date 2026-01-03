@@ -3,7 +3,7 @@
 // Parameters must be declared before any pipeline logic executes
 properties([
   parameters([
-    string(name: 'appVersion',   description: 'v1'),
+    string(name: 'appVersion',   description: 'Enter Application Version'),
     choice(name: 'deploy_to', choices: ['dev', 'qa', 'prod'], description: 'Target environment')
   ])
 ])
